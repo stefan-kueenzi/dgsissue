@@ -1,0 +1,7 @@
+type Query {
+    currentUserProfile: UserProfile
+}
+
+type UserProfile {
+    userRealm: String
+}
